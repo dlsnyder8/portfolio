@@ -24,10 +24,8 @@ const greeting = {
   title: "Hey, I'm Dylan",
   subTitle: emoji(
     "I'm primarily a back-end developer who dabbles in front-end technologies from time to time. In my current role, I work with a variety of technologies including Javascript, Google Cloud, OpenAI, and more. I'm always looking to learn new things and expand my skillset."
-
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -154,7 +152,7 @@ const workExperiences = {
         "Vendor Liason",
         "IT Support for 30+ employees",
         "Pioneer new technologies and integrate them into the existing workflow",
-        "Saved the company thousands of dollars by replacing third-party services with in-house solutions",
+        "Saved the company thousands of dollars by replacing third-party services with in-house solutions"
       ]
     },
     {
@@ -327,8 +325,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji(""),
-  subtitle:
-    "Want to discuss a project or just say hi?",
+  subtitle: "Want to discuss a project or just say hi?",
   number: "",
   email_address: ""
 };
