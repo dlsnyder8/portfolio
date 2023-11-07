@@ -54,7 +54,9 @@ const skillsSection = {
     emoji(
       "⚡ Developed multiple Discord bots and contributed to open source projects"
     ),
-    emoji("⚡ Creating and maintaining in house tools to automate processes and increase efficiency"),
+    emoji(
+      "⚡ Creating and maintaining in house tools to automate processes and increase efficiency"
+    ),
     emoji(
       "⚡ Integration of third party services such as Google Cloud, OpenAI, and more"
     )
