@@ -49,7 +49,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Tools I've used",
-  subTitle: "In no discernable order",
+  subTitle: "",
   skills: [
     emoji(
       "⚡ Developed multiple Discord bots and contributed to open source projects"
@@ -163,7 +163,14 @@ const workExperiences = {
       company: "Princeton Coffee Club",
       companylogo: require("./assets/images/coffeeclub.png"),
       date: "April 2019 - May 2022",
-      desc: "I started at this company during a pop-up shop meant to showcase the potential for an unused space on campus in April 2019. In the fall of 2019, I stepped in as the Treasurer and quickly took over managing vendor relationships, controlling inventory, processing payroll and managing the company's finances. I worked proactively to ensure that the company was profitable and to find and apply for alternative funding sources as needed to host 'Alcohol Initiative Nights', which were events that were meant to provide a safe space for students to socialize without alcohol. In the fall of 2020, I took over as the de-facto Technology Chair for the organization and was responsible for updating our website with new promotional materials, information about our events, and menu updates. I also worked with a group on campus to develop an online ordering system in my final semester at Princeton."
+      // desc: "I started at this company during a pop-up shop meant to showcase the potential for an unused space on campus in April 2019. In the fall of 2019, I stepped in as the Treasurer and quickly took over managing vendor relationships, controlling inventory, processing payroll and managing the company's finances. I worked proactively to ensure that the company was profitable and to find and apply for alternative funding sources as needed to host 'Alcohol Initiative Nights', which were events that were meant to provide a safe space for students to socialize without alcohol. In the fall of 2020, I took over as the de-facto Technology Chair for the organization and was responsible for updating our website with new promotional materials, information about our events, and menu updates. I also worked with a group on campus to develop an online ordering system in my final semester at Princeton.",
+      descBullets: [
+        "Was the primary point of contact for vendors and handled weekly orders",
+        "Managed company finances and processed payroll",
+        "Developed and maintained website",
+        "Developed online ordering system",
+        "Developed scheduling system for employees (TimeTables)"
+      ]
     }
   ]
 };
@@ -337,7 +344,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "wiredcoding", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

@@ -19,13 +19,35 @@
   color: $subTitle;
 }
 
-.software-skill-inline > i:hover {
-  color: $skillsColor;
-}
+// .software-skill-inline > i:hover {
+//   color: $skillsColor;
+// }
 .software-skill-inline > p {
   color: $subTitle;
   font-size: 10px;
 }
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
+}
+
+.JavaScript > i:hover {
+  color: yellow; /* Color for JavaScript icon */
+}
+.nodejs > i:hover {
+  color: green; /* Color for JavaScript icon */
+}
+.npm > i:hover {
+  color: red; /* Color for JavaScript icon */
+}
+.PostgreSQL > i:hover {
+  color: grey; /* Color for JavaScript icon */
+}
+.Google > i:hover {
+  color: white; /* Color for JavaScript icon */
+}
+.python > i:hover {
+  color: blue; /* Color for JavaScript icon */
+}
+.docker > i:hover {
+  color: blue; /* Color for JavaScript icon */
 }
