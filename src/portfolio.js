@@ -33,8 +33,9 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/dlsnyder8",
-  linkedin: "https://www.linkedin.com/in/dylan-snyder-01/",
-  // gmail: "saadpasta70@gmail.com",
+  twitter: "https://twitter.com/wiredcoding",
+  // linkedin: "https://www.linkedin.com/in/dylan-snyder-01/",
+  gmail: "dylan@wiredcoding.xyz",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
@@ -47,15 +48,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Tools I Work With",
-  subTitle: "",
+  title: "Tools I've used",
+  subTitle: "In no discernable order",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Developed multiple Discord bots and contributed to open source projects"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Creating and maintaining in house tools to automate processes and increase efficiency"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Google Cloud, OpenAI, and more"
     )
   ],
 
@@ -333,8 +334,8 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  userName: "wiredcoding", //Replace "twitter" with your twitter username without @
+  display: true // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
